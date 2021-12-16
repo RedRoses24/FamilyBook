@@ -1,0 +1,40 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css">  
+  <script async src="https://drv.tw/inc/wd.js"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7580352552486254" crossorigin="anonymous"></script></head>
+  <title> 👪 Family Book</title>
+  <body>
+    <div class="container">
+    <marquee id="m1">𝐅𝐚𝐦𝐢𝐥𝐲 𝐁𝐨𝐨𝐤</marquee> 
+    <hr> <hr>
+    <img id="family_img" src="https://whjr.imgix.net/6d93886f-4201-496d-af6c-062c4fb0b5e2.jpg?&width=300">
+    <h3 id="one">𝐎𝐮𝐫 𝐅𝐚𝐦𝐢𝐥𝐲 𝐁𝐨𝐨𝐤</h3>
+     <button type="button" onclick="family()">Next</button>
+<hr>
+<div class="center">
+   <script>
+   var names=[
+   "𝐌𝐲 𝐅𝐚𝐭𝐡𝐞𝐫 (𝐌𝐚𝐧𝐢𝐬𝐡 𝐕𝐞𝐫𝐦𝐚)",
+   "𝐌𝐲 𝐌𝐨𝐭𝐡𝐞𝐫 (𝐍𝐚𝐦𝐫𝐚𝐭𝐚 𝐑𝐚𝐣𝐩𝐮𝐭)",
+   "𝐌𝐲 𝐂𝐨𝐮𝐬𝐢𝐧 𝐒𝐢𝐬𝐭𝐞𝐫 (𝐌𝐮𝐬𝐤𝐚𝐚𝐧 𝐃𝐢)",
+   "𝐌𝐞"
+   ];
+ var images=[
+   "pap.jpg",
+   "mum.jpg",
+   "di.png",
+   "me.jpg"
+ ];
+ var i=0;
+ function family(){
+   document.getElementById("one").innerHTML=names[i];
+   document.getElementById("family_img").src=images[i];
+   i++;
+   if(i==4){
+     i=0;
+   }}
+  </script>
+  </div>
+</div>
+  </body>
+</html>
